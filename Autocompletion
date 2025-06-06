@@ -1,0 +1,15 @@
+-->> To enable/disable Autocompletion for practicing for competitive programming/coding tests <<--
+-->> Open "settings.json" file
+    -->> Remove/Paste this code for Removing/Enabling Autocompletion in VS respectively <<--
+          // To enable/disbale the Autocompletion from the VS Code Add/Remove code this piece of code in "settings.json"  
+          "editor.quickSuggestions": {
+          "other": false,
+          "comments": false,
+          "strings": false
+          },
+          "editor.suggestOnTriggerCharacters": false,
+          "editor.acceptSuggestionOnEnter": "off",
+          "editor.parameterHints.enabled": false,
+          "editor.inlineSuggest.enabled": false,
+          "editor.wordBasedSuggestions": false
+          // This piece for enable/disable Autocompletion
